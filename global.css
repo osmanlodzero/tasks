@@ -1,5 +1,5 @@
-* {
-	font-family: 'Lucida Console';
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;700&display=swap');* {
+	font-family: 'Inconsolata';
 	-webkit-font-smoothing: antialiased;
 	margin:0;
 	padding:0;
@@ -45,6 +45,10 @@ body {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
 	background: rgb(216, 216, 216);
+  }
+
+  .success {
+	  color:rgb(0, 223, 0) !important;
   }
 
 
